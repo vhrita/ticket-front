@@ -5,9 +5,6 @@
 Rodar em modo desenvoledor.\
 Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### Compilar
 `yarn run build`
 Gerar build de produção
