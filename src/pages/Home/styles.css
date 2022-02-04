@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(151,51,238);
+    background: radial-gradient(circle, rgba(151,51,238,0.3) 50%, rgba(218,34,255,0.3) 100%);
+  }
+  
+  .options {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    flex: 30%;
+    max-width: 50%;
+    height: 15vh;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    border: none;
+    font-size: 2.1em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.btn > .icon {
+    font-size: 2.5em;
+    margin-right: 5%;
+    width: 30%;
+}
+
+.gerenciar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+    height: auto;
+}

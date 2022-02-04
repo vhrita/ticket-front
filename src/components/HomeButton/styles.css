@@ -1,0 +1,10 @@
+.btn-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+    height: auto;
+}
