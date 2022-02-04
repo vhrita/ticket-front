@@ -1,6 +1,9 @@
 ## Ticket Frontend
 
 ### Desenvolvimento
+`yarn` ou `yarn install`
+Instalar dependências
+
 `yarn start`
 Rodar em modo desenvoledor.\
 Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
